@@ -1,0 +1,10 @@
+PNG
+il file inizia con 8Byte di firma
+	89504e4e0d0a1a0a
+	https://en.wikipedia.org/wiki/PNG
+poi ci sono una serie di chunk
+ogni chuck è composto da  4 parti:
+	-length
+	-type
+	-data
+	-CRC (checksum)
